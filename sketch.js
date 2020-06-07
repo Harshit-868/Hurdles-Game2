@@ -52,7 +52,7 @@ function draw() {
     form.hide();
     background(150, 225, 255);
     var head = createElement('h1', winner + " wins the race");
-    head.position(displayWidth/2 - 400, 100);
+    head.position(displayWidth/2 - 1000, 100);
     if (!r && gameState === 2) {
       location.reload();
     }
