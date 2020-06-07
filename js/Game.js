@@ -29,7 +29,7 @@ class Game {
     form.hide();
     clear();
     background(46);
-    image(trackImg, 1250, -17, displayWidth * 5, displayHeight - 160);
+    image(trackImg, 1200, -17, displayWidth * 5, displayHeight - 160);
 
     if (allPlayers != undefined) {
       var x;
