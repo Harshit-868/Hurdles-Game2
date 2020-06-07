@@ -51,11 +51,8 @@ function draw() {
   } else if (winner != "" && winner != undefined) {
     form.hide();
     background(150, 225, 255);
-    textAlign(CENTER);
-    fill("black");
-    textSize(50);
-    textStyle(BOLD);
-    text(winner + " wins the race!", displayWidth, 100);
+    var head = createElement('h1', winner + " wins the race");
+    head.position(displayWidth/2 - 200, 100);
     if (!r && gameState === 2) {
       location.reload();
     }
