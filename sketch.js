@@ -56,7 +56,7 @@ function draw() {
     fill("black");
     textSize(50);
     textStyle(BOLD);
-    text(winner + " wins the race!", 600, 100);
+    text(winner + " wins the race!", displayWidth/2, 100);
     if (!r && gameState === 2) {
       location.reload();
     }
